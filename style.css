@@ -1,0 +1,295 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=VT323&display=swap');
+
+
+
+body {
+    font-family: 'VT323', 'Roboto', sans-serif;
+    font-size: 20px;
+    max-width: 800px;
+    margin: auto;
+    margin: 100px;
+}
+
+@media (max-width: 690px) {
+    body {
+        margin: 0px;
+        padding: 0;
+        display: flex;
+    }
+
+}
+
+
+/* .h {
+    font-weight: 900;
+    margin: 20px;
+    padding: 20px;
+} */
+
+.container {
+    max-width: 750px;
+    margin: auto;
+
+}
+
+/* 1 ---------------------------------------------*/
+
+.avatar {
+    /* border-radius: 25px; */
+    border-width: 50px;
+    box-shadow: 0px 0px 14px rgb(141 232 235);
+    /* margin: 30px 10px 10px 60px; */
+}
+.pos-box {
+    position: static;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+background-image: url(background.webp);
+}
+
+/* 2 ---------------------------------------------*/
+
+/* .h {
+    color: rgb(156, 255, 255);
+    margin-bottom: 15px;
+} */
+
+/* .header1 {
+    color: rgb(156, 255, 255);
+    padding: 5px 5px 20px 20px;
+    margin: 5px 5px 20px 20px;
+
+} */
+
+h1 {
+    font-size: medium;
+    padding: 0 0 15px 50px;
+    margin-left: 20px;
+}
+
+.avatar-name {
+    margin: -67px 20px 15px 154px;
+    padding: 20px 20px 15px 20px;
+}
+
+.info {
+    list-style: none;
+
+}
+.info li {
+    margin-bottom: 4px;
+    border-bottom: 0.5px solid rgb(156, 255, 255);
+}
+
+/* 3---------------------------------------------- */
+
+/* .card3 .h {
+    margin: 1px 20px 20px 20px;
+    padding: auto;
+    color: rgb(255, 255, 255);
+
+} */
+
+.card3 {
+    /* border: rgb(156, 255, 255); */
+    border-top: 20px solid rgb(156, 255, 255);
+    border-left: 3px solid rgb(156, 255, 255);
+    border-bottom: 3px solid rgb(156, 255, 255);
+    border-right: 3px solid rgb(156, 255, 255);
+    background-color: #011e32;
+    color: rgb(156, 255, 255);
+    opacity: 0.9;
+    /* border-radius: 18px; */
+    margin: 20px;
+    padding: 20px;
+    color: rgb(156, 255, 255);
+}
+
+/* 4 ------------------------------------------------*/
+
+.card4 .h {
+    margin: 0px 20px 36px -5px;
+    
+}
+
+.card4 {
+    border-top: 20px solid rgb(156, 255, 255);
+    border-left: 3px solid rgb(156, 255, 255);
+    border-bottom: 3px solid rgb(156, 255, 255);
+    border-right: 3px solid rgb(156, 255, 255);
+    background-color: #011e32;
+    color: rgb(156, 255, 255);
+    opacity: 0.9;
+    /* border-radius: 18px; */
+    margin: 20px;
+    padding: 27px;
+    /* color: rgb(79, 32, 134); */
+}
+
+.card4 a {
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+a {
+    border: 0.5px solid rgb(156, 255, 255);
+    margin: 30px 10px 10px 10px;
+    font-size: large;
+    color: rgb(156, 255, 255);
+}
+
+a:hover {
+    opacity: 0.8;
+    color: rgb(156, 255, 255);
+    background: #052e49;
+}
+/* 5 -------------------------------------------------*/
+
+.card5 {
+    border-top: 20px solid rgb(156, 255, 255);
+    border-left: 3px solid rgb(156, 255, 255);
+    border-bottom: 3px solid rgb(156, 255, 255);
+    border-right: 3px solid rgb(156, 255, 255);
+    background-color: #011e32;
+    color: rgb(156, 255, 255);
+    opacity: 0.9;
+    /* border-radius: 18px; */
+    margin: 20px;
+    padding: 20px;
+    /* color: rgb(41, 20, 66); */
+
+}
+
+ol li {
+    margin-bottom: 4px;
+    border-bottom: 0.5px solid rgb(156, 255, 255);
+}
+
+.card5 ol{
+    padding: 20px;
+}
+
+/* 6 -------------------------------------------------*/
+
+table {
+    border-top: 20px solid rgb(156, 255, 255);
+    border-left: 3px solid rgb(156, 255, 255);
+    border-bottom: 3px solid rgb(156, 255, 255);
+    border-right: 3px solid rgb(156, 255, 255);
+    background-color: #011e32;
+    color: rgb(156, 255, 255);
+    width: 100%; 
+    /* border-radius: 20px; */
+    /* padding-left: 20px; */
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+    text-align: left;
+
+  }
+
+  .table6 {
+    margin: 20px;
+  }
+
+  table td {
+    color: rgb(156, 255, 255);
+  }
+
+ .tr1 td {
+    color: #011e32;;
+ }
+
+  table td:hover{
+    background: lightgrey;
+  }
+
+  .trhead th{
+    background: #011e32;
+  }
+  table tr:nth-child(even) {
+    background: lightblue;
+  }
+
+table thead tr .th1 {
+    font-size: x-large;
+} 
+  /* table td:nth-child(odd) {
+    background: lightblue;
+  } */
+
+  table thead tr th {
+    font-size: larger;
+    font-weight: 900;
+    padding-bottom: 15px;
+    color: rgb(156, 255, 255);
+    text-align: left;
+  }
+
+  /* 7 -----------------------------------------------*/
+
+.card7 {
+    border-top: 20px solid rgb(156, 255, 255);
+    border-left: 3px solid rgb(156, 255, 255);
+    border-bottom: 3px solid rgb(156, 255, 255);
+    border-right: 3px solid rgb(156, 255, 255);
+    background-color: #011e32;
+    color: rgb(156, 255, 255); 
+    /* border-radius: 20px; */
+    padding-left: 20px;
+    padding: 20px;
+    margin: 20px;
+    opacity: 0.9;
+}
+
+.input1 {
+    background: #011420;
+    border: none;
+    padding-bottom: 10px;
+    color: rgb(156, 255, 255);
+}
+
+label, input{
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    padding: 10px 0 10px 0;
+  }
+
+/* 8 ------------------------------------------------*/
+
+h3 {
+    font-size: x-large;
+    padding-bottom: 15px;
+}
+
+.btn {
+    background: rgb(2, 30, 42);
+    color: rgb(139, 233,254);
+    margin: 20px;
+    border: none;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    }
+
+
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(142, 234, 255);
+    background: rgb(3, 39, 55);
+
+}
